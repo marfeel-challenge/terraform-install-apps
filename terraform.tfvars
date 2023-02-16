@@ -14,7 +14,7 @@ clusters = {
     appFrontCDPath = "deploy"
     appFrontNamespace = "app-front"
     appApiName = "app-api"
-    appApiRepo = "https://github.com/matiasgonzalocalvo/app-api.git"
+    appApiRepo = "https://github.com/marfeel-challenge/api_application.git"
     appApiCDPath = "deploy"
     appApiNamespace = "app-api"
   }
@@ -28,21 +28,21 @@ clusters = {
     appFrontCDPath = "deploy"
     appFrontNamespace = "app-front"
     appApiName = "app-api"
-    appApiRepo = "https://github.com/matiasgonzalocalvo/app-api.git"
+    appApiRepo = "https://github.com/marfeel-challenge/api_application.git"
     appApiCDPath = "deploy"
     appApiNamespace = "app-api"
   }
   prd = {
     cluster_name = "eks-cluster-prd"
     entorno = "prd"
-    branch = "master"
+    branch = "main"
     env = "prd"
     appFrontName = "app-front"
     appFrontRepo = "https://github.com/marfeel-challenge/static_application.git"
     appFrontCDPath = "deploy"
     appFrontNamespace = "app-front"
     appApiName = "app-api"
-    appApiRepo = "https://github.com/matiasgonzalocalvo/app-api.git"
+    appApiRepo = "https://github.com/marfeel-challenge/api_application.git"
     appApiCDPath = "deploy"
     appApiNamespace = "app-api"
   }

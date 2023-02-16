@@ -30,11 +30,7 @@ variable "environments" {
   type = list(string)
   default = ["dev", "tst"]
 }
-#argocd_version
-variable "argocd_version" {
-  description = "The ArgoCD version"
-  type        = string
-}
+
 #argocd_namespace
 variable "argocd_namespace" {
   description = "The ArgoCD namespace"

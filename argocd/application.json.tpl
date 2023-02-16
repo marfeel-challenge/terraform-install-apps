@@ -19,11 +19,12 @@
         "kind": "ServiceAccount"
       }
     ],
-    "project": "${appNamespace}",
+    "project": "${appNamespace}-${env}",
     "source": {
       "helm": {
         "valueFiles": [
-          "values.yaml"
+          "values.yaml",
+          "configmap.yaml"
         ]
       },
       "path": "deploy/${env}/",

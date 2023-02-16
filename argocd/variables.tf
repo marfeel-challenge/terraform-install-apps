@@ -48,3 +48,13 @@ variable "env" {
   type        = string
 }
 
+#appFrontCDPath
+variable "appFrontCDPath" {
+  description = "The path to deploy"
+  type        = string
+}
+#appApiCDPath
+variable "appApiCDPath" {
+  description = "The path to deploy"
+  type        = string
+}
