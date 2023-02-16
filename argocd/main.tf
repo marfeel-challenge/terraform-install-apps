@@ -26,6 +26,7 @@ resource "kubernetes_manifest" "applicationFront" {
     argocd_namespace = "${var.argocd_namespace}",
     appRepo = "${var.appFrontRepo}",
     branch = "${var.branch}",
+    Cdpath = "${var.appFrontCDPath}"
   }))
 }
 
@@ -54,6 +55,7 @@ resource "kubernetes_manifest" "applicationApi" {
     argocd_namespace = "${var.argocd_namespace}",
     appRepo = "${var.appApiRepo}",
     branch = "${var.branch}",
+    Cdpath = "${var.appFrontCDPath}"
   }))
 }
 

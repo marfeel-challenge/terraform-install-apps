@@ -10,10 +10,12 @@ clusters = {
     branch = "develop"
     env = "dev"
     appFrontName = "app-front"
-    appFrontRepo = "https://github.com/matiasgonzalocalvo/app-front.git"
+    appFrontRepo = "https://github.com/marfeel-challenge/static_application.git"
+    appFrontCDPath = "deploy"
     appFrontNamespace = "app-front"
     appApiName = "app-api"
     appApiRepo = "https://github.com/matiasgonzalocalvo/app-api.git"
+    appApiCDPath = "deploy"
     appApiNamespace = "app-api"
   }
   tst = {
@@ -22,10 +24,12 @@ clusters = {
     branch = "release"
     env = "tst"
     appFrontName = "app-front"
-    appFrontRepo = "https://github.com/matiasgonzalocalvo/app-front.git"
+    appFrontRepo = "https://github.com/marfeel-challenge/static_application.git"
+    appFrontCDPath = "deploy"
     appFrontNamespace = "app-front"
     appApiName = "app-api"
     appApiRepo = "https://github.com/matiasgonzalocalvo/app-api.git"
+    appApiCDPath = "deploy"
     appApiNamespace = "app-api"
   }
   prd = {
@@ -34,10 +38,12 @@ clusters = {
     branch = "master"
     env = "prd"
     appFrontName = "app-front"
-    appFrontRepo = "https://github.com/matiasgonzalocalvo/app-front.git"
+    appFrontRepo = "https://github.com/marfeel-challenge/static_application.git"
+    appFrontCDPath = "deploy"
     appFrontNamespace = "app-front"
     appApiName = "app-api"
     appApiRepo = "https://github.com/matiasgonzalocalvo/app-api.git"
+    appApiCDPath = "deploy"
     appApiNamespace = "app-api"
   }
 }

@@ -22,6 +22,8 @@ variable "clusters" {
     appApiName = string
     appApiRepo = string
     appApiNamespace = string
+    appFrontCDPath = string
+    appApiCDPath = string
   }))
 }
 variable "environments" {
